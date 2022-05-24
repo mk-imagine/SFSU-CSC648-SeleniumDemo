@@ -93,7 +93,7 @@ async function example() {
 	await pullHotelList(driver);
 	console.log("Hotel List Pull Successful");
 
-	await driver.quit();
+	// await driver.quit();
 }
 
 /**

@@ -49,7 +49,7 @@ async function example() {
         console.log(err);
     } finally {
         // Close Browser
-        await driver.quit();
+        // await driver.quit();
     }
 }
 
